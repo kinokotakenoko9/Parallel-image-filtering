@@ -11,6 +11,9 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+
+    // https://github.com/bytedeco/javacv
+    implementation("org.bytedeco:javacv-platform:1.5.11")
 }
 
 tasks.test {
